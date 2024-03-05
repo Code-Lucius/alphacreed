@@ -360,4 +360,14 @@
       }
 
 
-/* CONTACT PAGE STYLING STARTS HERE */
+/* CONTACT PAGE STYLING ENDS HERE */
+/* BLOG PAGE STYLING STARTS HERE */
+   .blog--latest--image{
+    width: 100%;
+    height: 100vh;
+   }
+
+   .blog--headline{
+    
+   }
+/* BLOG PAGE STYLING ENDS HERE */
