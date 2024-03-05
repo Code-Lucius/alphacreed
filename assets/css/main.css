@@ -362,12 +362,44 @@
 
 /* CONTACT PAGE STYLING ENDS HERE */
 /* BLOG PAGE STYLING STARTS HERE */
-   .blog--latest--image{
+   /* .blog--latest--image{
     width: 100%;
     height: 100vh;
+   } */
+
+   .blog--header{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1em;
+    font-style: normal; 
+    color: rgb(236, 88, 0);
+   }
+   .blog--text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1em;
+    font-style: normal; 
    }
 
-   .blog--headline{
-    
-   }
+   .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: rgb(236, 88, 0);
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+   
+
 /* BLOG PAGE STYLING ENDS HERE */
