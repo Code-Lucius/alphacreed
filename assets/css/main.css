@@ -11,14 +11,34 @@
     p.contact--text{
         font-size:2em;
     }
+    h1.hero--header{
+      font-size:3em;
+    }
+
+    p.hero--text{
+      font-size: 1em;
+    }
+    p.hero--header2{
+      font-size: 1.2em;
+    }
+
+    div.hero--images{
+      height:60vh;
+    }
+    p.aboutHeader{
+      font-size:3em;
+    }
   }
 
-/* body{
-    background-color: black;
-} */
+body{
+  font-family: "Oswald", sans-serif; 
+}
 
-.montserrat-alphatextfont {
-  font-family: "Montserrat", sans-serif;
+.offcanvas{
+  width:80% !important;
+}
+
+.montserrat-alphatextfont { 
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 1.2em;
@@ -26,7 +46,7 @@
 }
 
 .montserrat-alphaheader4 {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-optical-sizing: auto;
     font-weight: 400;
     font-size: 2em;
@@ -92,31 +112,57 @@
 
 /* NAV STYLING ENDS HERE */
 /* HERO STYLING STARTS HERE */
-.carousel-indicators .active {
-    background: #87CEFA !important;
+.hero--images{
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0.2), rgba(10,10,30, 0.33)),url("../images/img5.jpg");
+  background-size: cover; 
+}
+.hero--header{
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 5em;
+  font-style: normal;
+  line-height: 0.4em;
+  color: rgb(17, 16, 16);
 }
 
-.hero--img{
-    height: 80vh;
+.hero--header2{
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.8em;
+  font-style: normal;
+  color: rgb(236, 88, 0);
+  line-height:2.5em;
 }
-
-#heroMovies .carousel-indicators button {
-   width: 7px;
-   height: 7px;
-   border-radius: 100%;
-   border: 2px solid white;
-   background: transparent;
+.hero--text{
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: normal;
+  color: rgb(17, 16, 16);
+  letter-spacing: 3px;
 }
 
 /* HERO STYLING ENDS HERE */
 /* ABOUT STYLING STARTS HERE */
-.about--header{
-    /* text-decoration: underline rgb(236, 88, 0) 2px;
-    text-underline-offset: 10px; */
-    /* border-bottom: 5px solid rgb(236, 88, 0); */
-    border-bottom: 5px solid #87CEFA;
-    /* display: inline-block; */
+.about--p{
+  font-family: "Karla", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.5em;
     
+}
+
+.aboutHeader{
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 5em;
+    font-style: normal;
+    line-height: 1em;
+}
+
+.about--div{
+  background-color:#87CEFA;
 }
 .about--link{
     text-decoration: none;
@@ -143,7 +189,7 @@
 }
 
 .blog--div{
-    height: 40vh;
+    height: 60vh;
 }
 
 .blog--divLast{
@@ -190,44 +236,31 @@
 }
 /* BLOG STYLING ENDS HERE */
 /* FOOTER STYLING STARTS HERE */
-.footer--div{
-    /* background-color: #87CEFA; */
-    background-color: rgb(236, 88, 0);
-}
-.footer--bold{
-    text-decoration: none;
-    color: white;
-    /* font-size: 1.8em;
-    font-weight: 0.5em; */
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 2em;
-    font-style: normal;
-  }
-
-.footer--bold:hover, .footer--text:hover{
-    /* color:rgb(236, 88, 0); */
-    color: #87CEFA;
+.footer--header{
+  font-weight: 400;
+  font-size: 1.5em;
+  color: rgb(238, 237, 237);
 }
 
-  .footer--text{
-    text-decoration: none;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 1.2em;
-    font-style: normal;
-  }
+.footer--a:hover{
+    color:rgb(236, 88, 0);
+}
+
+.footer--a, .footer--p{
+  text-decoration: none;
+  color: rgb(238, 237, 237);
+  font-size: 1em;
+  font-family: karla, sans-serif;
+}
 
   .footer--socials{
-    font-size: 1.8em;
+    font-size: 1em;
+    color: rgb(238, 237, 237);
   }
 
   .footer--socials:hover{
     /* color:rgb(236, 88, 0) !important; */
-    color:#87CEFA !important;
+    color:rgb(236, 88, 0) !important;
   }
 
   /* .footer--text {
@@ -403,3 +436,24 @@
    
 
 /* BLOG PAGE STYLING ENDS HERE */
+
+.move--image{
+  height: 60vh;
+}
+
+.scrolll{
+  height: 100vh;
+}
+
+.image--div{
+  height: 100vh;
+  /* background-color: #87CEFA; */
+}
+
+.bg-blue{
+  background-color: #87CEFA;
+}
+
+.bg-orange{
+  background-color: rgb(236, 88, 0);
+}
