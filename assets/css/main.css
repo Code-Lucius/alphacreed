@@ -28,6 +28,14 @@
     p.aboutHeader{
       font-size:3em;
     }
+
+    p.cont--header{
+      font-size:3em;
+     }
+    
+     p.cont--p{
+      font-size: 1em;
+     }
   }
 
 body{
@@ -457,3 +465,50 @@ body{
 .bg-orange{
   background-color: rgb(236, 88, 0);
 }
+
+.text-orange{
+  color: rgb(236, 88, 0);
+}
+
+.text-blue{
+  color: #87CEFA;
+}
+
+.cont--div{
+  height: 80vh;
+  background-image: linear-gradient(to bottom, rgba(236,88,0,0.7), rgba(236,88,0,0.7)),url("../images/img5.jpg");
+  background-size: cover; 
+}
+
+.cont--p{
+  font-optical-sizing: auto;
+  font-family: "karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  font-style: normal; 
+  color: white;
+ }
+
+ .cont--header{
+  font-optical-sizing: auto;
+  font-family: "oswald", sans-serif;
+  font-weight: 600;
+  font-size: 5em;
+  font-style: normal; 
+  color: white;
+  line-height: 1em;
+ }
+
+ .cont--contact{
+  border: 10px solid rgb(223, 220, 220);
+ }
+
+ .btn-white{
+  background-color: white;
+ }
+
+ .btn-white:hover{
+    border: 2px solid white !important;
+    background-color: rgb(236, 88, 0) !important;
+    color:white;
+ }
